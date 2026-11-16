@@ -30,6 +30,8 @@ Baixe a versão mais recente na página de **Releases**:
 | Sistema | Arquivo | Tamanho |
 |---|---|---|
 | 🪟 **Windows** (x64) | `spectre.exe` | ~254 MB |
+| 🍎 **macOS Apple Silicon** (M1/M2/M3/M4) | `spectre-macos-arm64` | ~233 MB |
+| 🍎 **macOS Intel** (x64) | `spectre-macos-x64` | ~246 MB |
 | 🐧 **Debian / Ubuntu** (amd64) | `spectre-ai_*.deb` | ~97 MB |
 
 ---
@@ -39,6 +41,16 @@ Baixe a versão mais recente na página de **Releases**:
 1. Baixe o `spectre.exe` na página de Releases.
 2. Rode o arquivo. Na primeira execução o Windows pode mostrar o aviso do SmartScreen — clique em **Mais informações → Executar assim mesmo**.
 3. Pronto — o SPECTRE abre no terminal.
+
+## 🍎 macOS
+
+1. Baixe o arquivo do seu chip na página de Releases: `spectre-macos-arm64` (Apple Silicon M1/M2/M3/M4) ou `spectre-macos-x64` (Intel).
+2. Abra o Terminal na pasta do download e rode:
+```bash
+chmod +x spectre-macos-arm64   # ou spectre-macos-x64
+./spectre-macos-arm64          # ou ./spectre-macos-x64
+```
+3. Na primeira vez o macOS pode bloquear por ser de desenvolvedor não identificado — vá em **Ajustes → Privacidade e Segurança → Abrir assim mesmo**.
 
 ## 🐧 Debian / Ubuntu
 
